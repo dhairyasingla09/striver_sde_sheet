@@ -32,14 +32,11 @@ int main(){
     int m = matrix[0].size();
     vector<vector<int>> ans = zeroMatrix(matrix, n, m);
 
-    cout << "The Final matrix is: n";
-    for (auto it : ans)
-    {
-        for (auto ele : it)
-        {
-            cout << ele << " ";
+    for (auto it : ans){
+        for (auto itr : it){
+            cout << itr << " ";
         }
-        cout << "n";
+        cout << "\n";
     }
     return 0;
 
